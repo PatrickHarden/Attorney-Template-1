@@ -1,0 +1,31 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {height: 92px !important;}
+}
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background: #fff;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+    .navbar-nav .nav-link {
+        padding: 15px !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {height: 80px;}
+
+    section#firm .overview i {left: -55px;}
+}
+
+@media (max-width: 480px) {
+    .btn {display:block;}
+
+    section#firm .overview {padding: 100px 15px 15px;}
+    section#firm .overview i {
+        left: 50%;
+        top: 5px;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}

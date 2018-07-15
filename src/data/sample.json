@@ -1,0 +1,96 @@
+{
+    "firminfo":{
+       "firmName":"Phoenix Law",
+       "firmAddress":"123 N South St.",
+       "firmCity":"Townville",
+       "firmState":"ST",
+       "firmZip":"54321",
+       "firmLat":"40.7446790",
+       "firmLong":"-73.9485420"
+    },
+    "firmWelcome":"<h1>When life turns upside down we <strong>know</strong> how to <strong>help</strong>!</h1><a href=\"#contact\" class=\"btn btn-red\">Contact Us <i class=\"fas fa-comment-alt-edit\"></i></a> <a href=\"#practice\" class=\"btn btn-white\">Our Services <i class=\"fas fa-chevron-circle-right\"></i></a>",
+    "firmAbout":"<h2>Our firm is <strong>here to help</strong> when you need us</h2><p>Our firm is committed to providing the highest quality legal services to our clients. Our practice is client and service oriented with a focus on personal attention, integrity and successful results. Our attorneys and staff have considerable experience in diverse areas of the law. We support and are experienced in participating in mediation and arbitration. We work with our clients to reach cost-effective, creative resolutions to all of their legal matters.</p>",
+    "firmAction":"<h2>Let's find a time to <strong>tell your story</strong> and make a plan.</h2><a href=\"#contact\" class=\"btn btn-hollow\">Send A Message <i class=\"fas fa-comment-alt-edit\"></i></a> <a href=\"tel:555-765-4321\" class=\"btn btn-white\"><i class=\"fas fa-phone\"></i> 555.765.4321</a>",
+    "firmPractice":[
+       {
+          "check":true,
+          "title":"family law",
+          "icon":null
+       },
+       {
+          "check":true,
+          "title":"personal injury",
+          "icon":null
+       },
+       {
+          "check":true,
+          "title":"estate planning",
+          "icon":null
+       },
+       {
+          "check":true,
+          "title":"labor law",
+          "icon":null
+       },
+       {
+          "check":true,
+          "title":"business law",
+          "icon":null
+       },
+       {
+          "check":true,
+          "title":"criminal & dui",
+          "icon":null
+       }
+    ],
+    "firmStaff":[
+       {
+          "check":true,
+          "name":"Jared Smith",
+          "title":"partner",
+          "email":"jared@email.com",
+          "phone":"555.765.4321",
+          "bio":"Jared received his Bachelor of Arts Degree with honors and distinction from George Washington University in 1984."
+       },
+       {
+        "check":true,
+        "name":"Jared Smith",
+        "title":"partner",
+        "email":"jared@email.com",
+        "phone":"555.765.4321",
+        "bio":"Jared received his Bachelor of Arts Degree with honors and distinction from George Washington University in 1984."
+       },
+       {
+          "check":null,
+          "name":null,
+          "title":null,
+          "email":null,
+          "phone":null,
+          "bio":null
+       },
+       {
+          "check":null,
+          "name":null,
+          "title":null,
+          "email":null,
+          "phone":null,
+          "bio":null
+       },
+       {
+          "check":null,
+          "name":null,
+          "title":null,
+          "email":null,
+          "phone":null,
+          "bio":null
+       },
+       {
+          "check":null,
+          "name":null,
+          "title":null,
+          "email":null,
+          "phone":null,
+          "bio":null
+       }
+    ]
+ }

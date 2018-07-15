@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900');
+
+
+body {font-family: 'Lato', sans-serif; margin: 0; font-size:20px; line-height:1.75rem; font-weight: 300; letter-spacing: 0px; color: #464646;}
+div#root {height: 100vh;}
+
+a {color:#e64b41;}
+
+.navbar-nav .nav-link {
+    padding: 1.5rem 1rem!important;
+    color: #464646!important;
+    font-weight: 300!important;
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: 0px;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:active, .navbar-nav .nav-link:focus {color: #e54c41 !important; transition-duration: 0.5s;}
+.navbar-brand img {
+    height: 70px;
+    position: relative;
+    top: 0;
+}
+.navbar-toggler {
+    border: none;
+    padding: 0;
+}
+.navbar.bg-light {background:transparent !important; transition-duration: 0.5s}
+.navbar.bg-light.active {background:#fff !important; box-shadow: 0 0 3px rgba(0,0,0,0.25); transition-duration: 0.5s}
+.navbar-brand img {height: 90px;}
+
+.btn {
+    padding: 20px 50px;
+    min-width: 230px;
+    margin-top: 15px;
+    border: 2px solid #555;
+    background: #555;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition-duration: 0.5s
+}
+.btn:hover {background: #333; border-color: #333; color: #fff; transition-duration: 0.5s;}
+.btn-white {background:#fff; border-color: #fff; color:#000;}
+.btn-red {background:#e54c41; border-color: #e54c41; color:#fff;}
+.btn-hollow {background: transparent; border-color: #fff;}
+.btn svg {
+    font-size: 1.5rem;
+    margin: 0 -15px 0 15px;
+    position: relative;
+    top: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif; font-weight:100;}
+strong {font-family: 'Merriweather', serif; color:#e54c41;}
+
+
+
+section{min-height:350px; padding:60px 0;}
+
+section#home {
+    padding: 30vh 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+}
+section#home h1 {font-size: 3.3rem;}
+
+section#firm {background:#fff;}
+section#firm strong {color:#000;}
+section#firm .overview {
+    padding: 65px 65px 65px 130px;
+    background: #eee;
+    border: 15px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    position: relative;
+}
+section#firm .overview svg {
+    background: #e64b41;
+    color: #fff;
+    height: 150px;
+    width: 150px;
+    font-size: 3rem;
+    padding: 2.65rem;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    position: absolute;
+    left: -75px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+section#practice {
+    background:#eee;
+    padding-bottom:45px;
+}
+section#practice .single-area {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+section#practice .single-area h3 {font-weight: 900; font-family: 'Merriweather', serif;}
+
+
+section#action {
+    background: #e54c41;
+    text-align: center;
+    min-height: 0;
+}
+section#action h2, section#action h2 strong {color: #fff !important;}
+section#action .btn-white i {
+    margin-left: -15px;
+    margin-right: 15px;
+}
+
+
+section#staff {
+    background:#eee;
+}
+section#staff .single-staff {
+    padding: 30px 30px 30px 120px;
+    margin-left: 30px;
+    background: #eee;
+    border-radius: 30px;
+    border: 15px solid #fff;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+section#staff .single-staff .staff-photo {
+    background-color: #ccc;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+section#staff .single-staff .staff-photo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 3px solid #e64b41;
+}
+section#staff .single-staff h4 {color:#e64b41; font-weight: 900; font-family: 'Merriweather', serif; text-transform: lowercase;}
+section#staff .single-staff p, section#staff .single-staff a {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+section#staff .single-staff a {margin-right: 15px;}
+
+
+section#awards {
+    background:#fff;
+    text-align: center;
+}
+
+
+.google-map {
+    height: 400px;
+}
+
+
+section#contact {
+    background: #464646;
+    color:#fff;
+}
+section#contact P {font-size: 1rem; line-height: 1.5rem;}
+section#contact .btn svg {
+    margin-left: -15px;
+    margin-right: 15px;
+}
+section#contact input, section#contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+section#contact form .col-6 div {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+section#contact form .col-6 div input {
+    width: 25px;
+    margin-bottom: 16px;
+}
+section#contact .btn {
+    width: auto;
+}
+section#contact .disclaimer {
+    font-size: 0.8rem;
+    line-height: 1.35em;
+    margin-top: 10px;
+}
+section#contact .social {
+    margin: 30px 0 15px;
+}
+section#contact .social svg {
+    font-size: 2.5rem;
+    margin-right: 7px;
+    color: #fff;
+}
+section#contact .address {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    line-height: 1.15em;
+}
+#action .btn-white > svg {margin-right:15px; margin-left:-15px;}
